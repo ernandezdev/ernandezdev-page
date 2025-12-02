@@ -1,0 +1,1 @@
+A personal study-motivation landing page built with HTML, CSS, and JavaScript. The goal of this project is to create a clean and minimal website that I can visit daily to stay focused and motivated in my learning journey.

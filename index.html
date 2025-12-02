@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ernandezdev</title>
+
+    <!-- Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Space Grotesk -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Ícones Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>ernandezdev</h1>
+
+      <div class="stack-tag">
+        <span class="typing">full stack developer</span>
+      </div>
+
+      <div class="social-links">
+        <button
+          onclick="openLink('https://linkedin.com')"
+          aria-label="LinkedIn"
+        >
+          <i data-lucide="linkedin"></i>
+        </button>
+
+        <button
+          onclick="openLink('https://github.com/ernandezdev')"
+          aria-label="GitHub"
+        >
+          <i data-lucide="github"></i>
+        </button>
+
+        <button
+          onclick="openLink('https://x.com/ernandezdev')"
+          aria-label="X (Twitter)"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.6"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+            <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+          </svg>
+        </button>
+
+        <button onclick="sendEmail()" aria-label="Email">
+          <i data-lucide="mail"></i>
+        </button>
+      </div>
+
+      <footer>© 2025 ernandezdev</footer>
+    </div>
+
+    <!-- JS externo -->
+    <script src="script.js"></script>
+  </body>
+</html>
