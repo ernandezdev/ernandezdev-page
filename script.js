@@ -14,6 +14,9 @@ function sendEmail() {
 }
 
 function openCurriculo() {
-  // Opens a new tab with the address of the resume page.
-  window.open("curriculo.html", "_blank");
+  window.open("https://ernandez.dev/resume.pdf", "_blank");
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+  lucide.replace();
+});
