@@ -12,3 +12,8 @@ function sendEmail() {
   a.click();
   document.body.removeChild(a);
 }
+
+function openCurriculo() {
+  // Opens a new tab with the address of the resume page.
+  window.open("curriculo.html", "_blank");
+}
